@@ -21,7 +21,7 @@ def parse_function(text):
     """Turn a user-typed string into a SymPy expression."""
     # allow ^ as exponent, since that's what most people type
     text = text.replace("^", "**")
-    return parse_expr(text, local_dict={"x": x}, transformations=TRANSFORMS)  
+    return parse_expr(text, local_dict={"x": x}, transformations=TRANSFORMS) 
 
 
 def main():
