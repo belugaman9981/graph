@@ -14,7 +14,7 @@ from sympy.parsing.sympy_parser import (
 )
 
 x = symbols("x")
-TRANSFORMS = standard_transformations + (implicit_multiplication_application,)
+TRANSFORMS = standard_transformations + (implicit_multiplication_application,) 
 
 
 def parse_function(text):
